@@ -1,0 +1,9 @@
+[Rule]
+DOMAIN-SUFFIX,soulapp.cn,PROXY
+DOMAIN-SUFFIX,soultag.com,PROXY
+DOMAIN-SUFFIX,soulapp.me,PROXY
+DOMAIN-SUFFIX,soulcdn.me,PROXY
+
+# 默认规则
+GEOIP,CN,DIRECT
+FINAL,PROXY
