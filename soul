@@ -1,0 +1,94 @@
+# Soul APP Loon Rules
+
+# 适用于 Loon 的 Soul 应用代理规则
+
+# 使用方法：将此文件保存为 .list 格式，在 Loon 配置中引用
+
+# Soul 主要域名
+
+DOMAIN-SUFFIX,soulapp.cn,PROXY
+DOMAIN-SUFFIX,soul.com,PROXY
+DOMAIN-SUFFIX,soul-app.com,PROXY
+
+# Soul API 接口
+
+DOMAIN-SUFFIX,api.soulapp.cn,PROXY
+DOMAIN-SUFFIX,gateway.soulapp.cn,PROXY
+DOMAIN-SUFFIX,openapi.soulapp.cn,PROXY
+
+# Soul CDN 和静态资源
+
+DOMAIN-SUFFIX,cdn.soulapp.cn,PROXY
+DOMAIN-SUFFIX,static.soulapp.cn,PROXY
+DOMAIN-SUFFIX,img.soulapp.cn,PROXY
+DOMAIN-SUFFIX,media.soulapp.cn,PROXY
+
+# Soul 语音通话相关
+
+DOMAIN-SUFFIX,voice.soulapp.cn,PROXY
+DOMAIN-SUFFIX,rtc.soulapp.cn,PROXY
+DOMAIN-SUFFIX,audio.soulapp.cn,PROXY
+
+# Soul 视频通话相关
+
+DOMAIN-SUFFIX,video.soulapp.cn,PROXY
+DOMAIN-SUFFIX,live.soulapp.cn,PROXY
+
+# Soul 推送服务
+
+DOMAIN-SUFFIX,push.soulapp.cn,PROXY
+DOMAIN-SUFFIX,notification.soulapp.cn,PROXY
+
+# Soul 数据统计和分析
+
+DOMAIN-SUFFIX,analytics.soulapp.cn,PROXY
+DOMAIN-SUFFIX,data.soulapp.cn,PROXY
+DOMAIN-SUFFIX,track.soulapp.cn,PROXY
+
+# Soul 游戏相关
+
+DOMAIN-SUFFIX,game.soulapp.cn,PROXY
+DOMAIN-SUFFIX,match.soulapp.cn,PROXY
+
+# Soul 用户上传内容
+
+DOMAIN-SUFFIX,upload.soulapp.cn,PROXY
+DOMAIN-SUFFIX,ugc.soulapp.cn,PROXY
+
+# Soul 第三方服务集成
+
+DOMAIN-SUFFIX,oauth.soulapp.cn,PROXY
+DOMAIN-SUFFIX,sso.soulapp.cn,PROXY
+
+# Soul 移动端特定接口
+
+DOMAIN-SUFFIX,m.soulapp.cn,PROXY
+DOMAIN-SUFFIX,mobile.soulapp.cn,PROXY
+
+# Soul 内容分发网络
+
+DOMAIN-SUFFIX,res.soulapp.cn,PROXY
+DOMAIN-SUFFIX,assets.soulapp.cn,PROXY
+
+# Soul 备用域名
+
+DOMAIN-SUFFIX,soul-inc.com,PROXY
+DOMAIN-SUFFIX,soulapp.com,PROXY
+
+# IP 段规则（如果需要）
+
+# IP-CIDR,具体IP段/掩码,PROXY
+
+# 用户代理匹配（可选）
+
+# USER-AGENT,Soul*,PROXY
+
+# USER-AGENT,*soul*,PROXY
+
+# 关键字匹配（谨慎使用）
+
+# DOMAIN-KEYWORD,soul,PROXY
+
+# 正则表达式匹配（高级用法）
+
+# DOMAIN-REGEX,^.*.soulapp.cn$,PROXY
